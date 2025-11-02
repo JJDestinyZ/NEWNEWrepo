@@ -31,26 +31,26 @@ public class World1Mob {
 
 class Slime extends World1Mob {
     public Slime() {
-        super("Slime", 20, 10);
-    }           // lessen hp -erlo
+        super("Slime", 20, 5);
+    }           // lessen hp & dmg -erlo
 }
 
 class Bull extends World1Mob {
     public Bull() {
-        super("Wild Bull", 30, 15);
-    }       // lessen hp -erlo
+        super("Wild Bull", 30, 8);
+    }       // lessen hp & dmg -erlo
 }
 
 class Wolf extends World1Mob {
     public Wolf() {
-        super("Dire Wolf", 40, 20);
-    }       // lessen hp -erlo
+        super("Dire Wolf", 40, 10);
+    }       // lessen hp & dmg-erlo
 }
 
 class Minotaur extends World1Mob {
     public Minotaur() {
-        super("Minotaur", 80, 25);
-    }   // lessen hp -erlo
+        super("Minotaur", 80, 15);
+    }   // lessen hp & dmg-erlo
 
     @Override
     public void specialSkill(Character player) {
